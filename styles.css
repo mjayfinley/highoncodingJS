@@ -1,0 +1,144 @@
+.navBar {
+  background-color: #66A7F3;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.websiteName {
+  color: white;
+  font-size: 32px;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .websiteName {
+    font-size: 24px;
+  }
+}
+
+.homeLink {
+  color: white;
+  font-size: 18px;
+  font-family: Arial,Verdana,Sans-serif;
+  padding: 30px
+}
+
+@media only screen and (max-width: 600px) {
+  .homeLink {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+.categoryLink {
+  color: white;
+  font-size: 18px;
+  font-family: Arial,Verdana,Sans-serif;
+  padding: 30px
+}
+
+@media only screen and (max-width: 600px) {
+  .categoryLink {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+.topStory {
+  background-color: #DDDEE0;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.topStoryName {
+  color: #595555;
+  font-size: 24px;
+  font-family: Arial,Verdana,Sans-serif;
+  padding: 0px 20px 0px 0px;
+}
+
+.topStoryContent {
+  color: #595555;
+  font-size: 12px;
+  font-family: Arial,Verdana,Sans-serif;
+}
+
+.secondStoryName {
+  color: #477DC4;
+  font-size: 24px;
+  font-family: Arial,Verdana,Sans-serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.secondStoryContent{
+  font-family: Arial,Verdana,Sans-serif;
+  font-size: 11px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.thirdStoryName {
+  color: #477DC4;
+  font-size: 24px;
+  font-family: Arial,Verdana,Sans-serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.thirdStoryContent {
+  font-family: Arial,Verdana,Sans-serif;
+  font-size: 11px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.secondStoryCommentsAndLikes {
+  background-color: #E6943B;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-right: 20px;
+  display: flex;
+  height: 20px;
+  align-items: center;
+  color: white;
+  font-family: Arial,Verdana,Sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.secondStoryComments {
+  padding-right: 20px;
+}
+
+.thirdStoryCommentsAndLikes {
+  background-color: #E6943B;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-right: 20px;
+  display: flex;
+  height: 20px;
+  align-items: center;
+  color: white;
+  font-family: Arial,Verdana,Sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.thirdStoryComments {
+  padding-right: 20px;
+}
